@@ -2,7 +2,7 @@ import React from 'react'
 
 const DetailedHSI = ({HSI}) => {
   return (
-    <div>{HSI&&HSI}</div>
+    HSI&&<div>{HSI}&deg;</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const DetailedAltitue = ({Altitue}) => {
   return (
-    <div>{Altitue&&Altitue}</div>
+    Altitue&&<div>{Altitue}&deg;</div>
   )
 }
 
